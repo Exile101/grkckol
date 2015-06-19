@@ -97,13 +97,13 @@ html,body {
 .header-info p{	
 	text-transform: uppercase;
 	font-size: 3em;
-	font-weight: 700;
-	color: #FFF;
+	font-weight: 600;
+	color: #ef8b8b;
 }
 .header-info span{
-	font-size: 50px;
-	font-family: 'Poiret One', cursive;
-	color: #FFF;
+	font-size: 60px;
+	font-family: 'Poiret One';
+	color: #4b67a1;
 	font-weight: 100;
 }
 .header-info span.sub-text{
@@ -637,7 +637,7 @@ html,body {
 }
 .event-grid {
 	border-right: 1px solid #CCCCCC;
-	margin-bottom: 1em;
+	
 }
 .small-text {
 	color: #404040;
@@ -702,8 +702,8 @@ margin: .4em 0;
 	-ms-transition: .5s all;
 }
 .event-grids {
-	border-bottom: 1px solid #CCCCCC;
-	padding: 1.6em 0;
+	border-bottom: 3px solid #CCCCCC;
+	padding: 2em 0;
 }
 /*-- portfolio --*/
 .portfolio h3{	
@@ -717,6 +717,8 @@ margin: .4em 0;
 }
 .gallery-image img {
 	width: 100%;
+	height: 20em;
+
 }
 .gallery-image{
 	width: 31.7%;
@@ -751,8 +753,8 @@ margin: .4em 0;
 	background-size: 100%;
 }
 .gallery-image:hover div.caption {
-	display: block;
-	transition: all 0.3s ease;
+	display: inline-block;
+	transition: all 0.4s ease;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
