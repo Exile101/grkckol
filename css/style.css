@@ -14,7 +14,7 @@ html,body {
 .header{
 	background:url(../images/banner3.jpg) no-repeat 0px 0px;
 	background-size:cover;	
-	min-height:500px;
+	min-height:700px;
 }
 .header-logo{
 	float:left;
